@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Arkanoid" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Arkanoid" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL2-2.0.20/x86_64-w64-mingw32/include" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL2-2.0.20/x86_64-w64-mingw32/include/SDL2" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL_image/x86_64-w64-mingw32/include" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL_ttf/SDL2_ttf-2.0.15/x86_64-w64-mingw32/include" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL_mixer/x86_64-w64-mingw32/include" />
+				</Compiler>
+				<Linker>
+					<Add library="mingw32" />
+					<Add library="SDL2main" />
+					<Add library="SDL2" />
+					<Add library="SDL2_image" />
+					<Add library="SDL2_ttf" />
+					<Add library="SDL2_mixer" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL2-2.0.20/x86_64-w64-mingw32/lib" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL_image/x86_64-w64-mingw32/lib" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL_ttf/SDL2_ttf-2.0.15/x86_64-w64-mingw32/lib" />
+					<Add directory="D:/programming/Cpp project at class/testSDL/SDL_mixer/x86_64-w64-mingw32/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Arkanoid" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../Arkanoid/arkanoidgame.cpp" />
+		<Unit filename="../../Arkanoid/arkanoidgame.h" />
+		<Unit filename="../../Arkanoid/ball.cpp" />
+		<Unit filename="../../Arkanoid/ball.h" />
+		<Unit filename="../../Arkanoid/block.cpp" />
+		<Unit filename="../../Arkanoid/block.h" />
+		<Unit filename="../../Arkanoid/game.cpp" />
+		<Unit filename="../../Arkanoid/game.h" />
+		<Unit filename="../../Arkanoid/main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
